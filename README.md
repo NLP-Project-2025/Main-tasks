@@ -11,16 +11,31 @@ Final Project for 50.040 Natural Language Processing
 
 ## Directory structure
 ```shell
-Root
+Root/
 ├── config.py
 ├── utils.py
 ├── optimizer_test.npy
 ├── Task 1 and 2.ipynb
-├── Task 3 per langauge.ipynb
-├── Task 3 all langauge.ipynb
+├── Task 3 per language.ipynb
+├── Task 3 all language.ipynb
 ├── pretrain.txt
 ├── XNLI-1.0/
+│   ├── xnli.dev.jsonl
+│   ├── xnli.dev.tsv
+│   ├── xnli.test.jsonl
+│   ├── xnli.test.tsv
 ├── XNLI-MT-1.0/
+│   ├── multinli/
+│   │   ├── multinli.train.en.tsv
+│   │   ├── multinli.train.es.tsv
+│   │   ├── ...
+│   │   ├── multinli.train.vi.tsv
+│   │   ├── multinli.train.zh.tsv
+│   ├── xnli/
+│   │   ├── xnli.dev.en.jsonl
+│   │   ├── xnli.dev.en.tsv
+│   │   ├── xnli.test.en.jsonl
+│   │   ├── xnli.test.en.tsv
 └── README.md
 ```
 
@@ -35,8 +50,8 @@ Root
 in folder `best_model`.
 
 4. For training and testing, download XNLI dataset (monolingual) from
-- https://dl.fbaipublicfiles.com/XNLI/XNLI-1.0.zip
-- https://dl.fbaipublicfiles.com/XNLI/XNLI-MT-1.0.zip
+- https://dl.fbaipublicfiles.com/XNLI/XNLI-1.0.zip and save under `XNLI-1.0`.
+- https://dl.fbaipublicfiles.com/XNLI/XNLI-MT-1.0.zip and save under `XNLI-MT-1.0`.
 
     You can also download our custom dataset (code-switched) from [Google Drive](https://drive.google.com/drive/folders/1WSNE6j6XWwDucAy8UyIUhui8nsJQh1Yw?usp=sharing). See [repo](https://github.com/NLP-Project-2025/code-switching-pipeline) for implementation.
 
