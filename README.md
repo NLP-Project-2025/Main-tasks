@@ -57,9 +57,9 @@ in folder `best_model`.
     You can also download our custom dataset (code-switched) from [Google Drive](https://drive.google.com/drive/folders/1WSNE6j6XWwDucAy8UyIUhui8nsJQh1Yw?usp=sharing). See [repo](https://github.com/NLP-Project-2025/code-switching-pipeline) for implementation.
 
 5. How to run:
-- `task1_2.ipynb` → Custom GPT-2 implementation + English NLI fine-tuning
-- `task3_per_lang.ipynb` → Zero-shot multilingual evaluation + Per-language fine-tuning
-- `task3_all_lang.ipynb` → All-language fine-tuning
+- `Task1_2.ipynb` → Custom GPT-2 implementation + English NLI fine-tuning
+- `Task3_per_lang.ipynb` → Zero-shot multilingual evaluation + Per-language fine-tuning
+- `Task3_all_lang.ipynb` → All-language fine-tuning
 - Extended task is found in this [repo](https://github.com/NLP-Project-2025/Extended-Task)
 
 
