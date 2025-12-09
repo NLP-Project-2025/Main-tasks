@@ -54,7 +54,7 @@ in folder `best_model`.
 - https://dl.fbaipublicfiles.com/XNLI/XNLI-1.0.zip and save under `XNLI-1.0`.
 - https://dl.fbaipublicfiles.com/XNLI/XNLI-MT-1.0.zip and save under `XNLI-MT-1.0`.
 
-    You can also download our custom dataset (code-switched) from [Google Drive](https://drive.google.com/drive/folders/1WSNE6j6XWwDucAy8UyIUhui8nsJQh1Yw?usp=sharing). See [repo](https://github.com/NLP-Project-2025/code-switching-pipeline) for implementation.
+    You can also download our custom dataset (code-switched) in [HuggingFace](https://huggingface.co/datasets/taniakoh/code-switch-xnli-test). See [repo](https://github.com/NLP-Project-2025/code-switching-pipeline) for implementation.
 
 5. How to run:
 - `Task1_2.ipynb` → Custom GPT-2 implementation + English NLI fine-tuning
