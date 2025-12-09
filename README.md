@@ -94,6 +94,6 @@ Results from Task 3. Languages in bold were selected for further fine-tuning. Al
 - Warmup ratio: 0.1
 
 **Overall (en+vi+zh+es)**  
-- **Multilingual mixed-test accuracy**: **70.97%** (20040 samples)
+- **Multilingual mixed-test accuracy**: **72.57%** (20040 samples)
 
 To-do: add Full report link
