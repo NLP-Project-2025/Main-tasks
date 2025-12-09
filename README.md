@@ -60,7 +60,9 @@ in folder `best_model`.
 - `Task1_2.ipynb` → Custom GPT-2 implementation + English NLI fine-tuning
 - `Task3_per_lang.ipynb` → Zero-shot multilingual evaluation + Per-language fine-tuning
 - `Task3_all_lang.ipynb` → All-language fine-tuning
-- Extended task is found in this [repo](https://github.com/NLP-Project-2025/Extended-Task)
+- `Attention_visualisation.ipynb` → For attention layer analyses on negation, temporal order and lexical overlap
+- Extended task is found in this [repo](https://github.com/NLP-Project-2025/Extended-Task).
+- Our code-switched generation is found in this [repo](https://github.com/NLP-Project-2025/code-switching-pipeline.git).
 
 
 ## Results Summary
